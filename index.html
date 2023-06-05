@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gshop</title>
+  
+  <!-- style -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  	<!-- icons -->
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+	
+		<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+
+<!-- feather-icons -->
+<script src="https://unpkg.com/feather-icons"></script>
+</head>
+  
+  <body>
+    
+<!-- Navbar start -->
+<nav class="navbar">
+  <a href="#" class="navbar-logo">G<span>Shop</span></a>
+  
+  <div class="navbar-nav">
+    <a href="#home">Home</a>
+    <a href="#menu">Shop</a>
+    <a href="#products">Product</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
+  <div class="navbar-extra">
+    <a href="#" id="search-button"><i class="uil uil-search"></i></a>
+    <a href="#" id="shoping"><i class="uil uil-shopping-cart-alt"></i></a>
+    <a href="#" id="bars"><i class="uil uil-bars"></i></a>
+  </div>
+  <!-- search-form star -->
+  <div class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box"><i class="uil uil-search"></i></label>
+  </div>
+  <!-- search-form end -->
+  
+  <!-- shopping-cart star -->
+  <div id="shoppingCart" class="shopping-cart">
+    <div class="cart-item">
+      <div class="shopping-img">
+        <img src="image/3.jpg" alt="baju-brown-bear">
+      </div>
+     <div class="item-detail">
+        <h3 class="shopping-title" id="shoppingTitle">Baju Brown Bear</h3>
+       <div class="item-price" id="itemPrice">IDR 65K</div>
+      </div>
+      <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+    <div class="cart-item">
+      <img src="image/4.jpg" alt="baju-blck-bear">
+      <div class="item-detail">
+        <h3>Baju Black Bear</h3>
+       <div class="item-price">IDR 75K</div>
+      </div>
+      <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+    <p> Sedang dalam pengembangan, mungkin belom bisa menggunakan menu ini. under development , may not be able to use this menu.<span><i class="uil uil-exclamation-triangle"></i></span></p>
+  </div>
+  <!-- shopping-card end-->
+</nav>
+<!-- Navbar End -->
+
+<!-- hero section start-->
+<section class="hero" id="home">
+  <main class="content">
+    <h1>Website Resmi G<span>Shop</span></h1>
+    <p>Belanja kebutuhan mu di G<span>Shop</span></p>
+    <p >Sedang dalam pengembangan, Under  development <span><i class="uil uil-exclamation-triangle"></i></span> </p>
+    <a href="#menu" class="cta">Beli Sekarang </a>
+  </main>
+</section>
+<!-- hero section end-->
+
+<!--menu section start -->
+<section id="menu" class="menu">
+  <h2><span>List</span> Item</h2>
+  <p>Barang bisa berganti atau bertambah sesuai stok</p>
+  
+  <div class="row">
+    <div class="menu-card">
+       <div class="menu-card-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="menu-img">
+      <img src="image/1.jpg" alt="kacamata" class="menu-card-img">
+      </div>
+      <div class="menu-card-content">
+      <h3 class="menu-card-title">Kacamata </h3>
+      
+      <div class="menu-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="menu-price">
+      <p class="menu-card-price">IDR 15K</p>
+      </div>
+      </div>
+  </div>
+    <div class="menu-card">
+       <div class="menu-card-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="menu-img">
+      <img src="image/2.jpg" alt="kacamata-hitam" class="menu-card-img">
+      </div>
+      <div class="menu-card-content">
+      <h3 class="menu-card-title">Kacamata Hitam</h3>
+      
+      <div class="menu-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="menu-price">
+      <p class="menu-card-price">IDR 20K</p>
+      </div>
+      </div>
+  </div>
+    <div class="menu-card">
+       <div class="menu-card-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="menu-img">
+      <img src="image/3.jpg" alt="baju-brown-bear" class="menu-card-img">
+      </div>
+      <div class="menu-card-content">
+      <h3 class="menu-card-title">Baju Brown bear</h3>
+      
+      <div class="menu-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="menu-price">
+      <p class="menu-card-price">IDR 65K</p>
+      </div>
+      </div>
+  </div>
+    <div class="menu-card">
+       <div class="menu-card-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="menu-img">
+      <img src="image/6.jpg" alt="baju-puctyou-black" class="menu-card-img">
+      </div>
+      <div class="menu-card-content">
+      <h3 class="menu-card-title">Baju Puct You Balck</h3>
+      
+      <div class="menu-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="menu-price">
+      <p class="menu-card-price">IDR 75K</p>
+      </div>
+      </div>
+  </div>
+    <div class="menu-card">
+       <div class="menu-card-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="menu-img">
+      <img src="image/4.jpg" alt="baju-black-dog" class="menu-card-img">
+      </div>
+      <div class="menu-card-content">
+      <h3 class="menu-card-title">Baju Black Bear</h3>
+      
+      <div class="menu-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="menu-price">
+      <p class="menu-card-price">IDR 75K</p>
+      </div>
+      </div>
+  </div>
+    <div class="menu-card">
+       <div class="menu-card-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="menu-img">
+      <img src="image/5.jpg" alt="baju-viral-black" class="menu-card-img">
+      </div>
+      <div class="menu-card-content">
+      <h3 class="menu-card-title">Baju Viral Black</h3>
+      
+      <div class="menu-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="menu-price">
+      <p class="menu-card-price">IDR 85K</p>
+      </div>
+      </div>
+  </div>
+  </div>
+ </section>
+<!-- menu section  end-->
+
+<!-- products section start -->
+<section class="products" id="products">
+  <h2 ><span>Best</span> Seller </h2>
+  
+  <div class="row">
+    <div class="product-card">
+      <div class="product-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="product-image">
+        <img src="image/produk/2.jpg" alt="Product1" class="product-card-image">
+      </div>
+      <div class="product-content">
+        <h3 class="product-card-title">Lampu Tumbler Merah</h3>
+        <div class="product-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="product-price" >IDR15K
+        </div> 
+        </div>
+      </div>
+      <div class="product-card">
+      <div class="product-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="product-image">
+        <img src="image/produk/3.jpg" alt="Product1" class="product-card-image">
+      </div>
+      <div class="product-content">
+        <h3 class="product-card-title">Lampu Tumbler Pink-Putih</h3>
+        <div class="product-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="product-price">IDR15K</div> 
+        </div>
+      </div>
+      <div class="product-card">
+      <div class="product-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="product-image">
+        <img src="image/produk/5.jpg" alt="Product1" class="product-card-image">
+      </div>
+      <div class="product-content">
+        <h3 class="product-card-title">jepit rambut cute</h3>
+        <div class="product-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="product-price">IDR10K</div> 
+        </div>
+      </div>
+      <div class="product-card">
+      <div class="product-icons">
+        <a href="#" class="item-shopping-cart"><i class="uil uil-shopping-cart-alt"></i></a>
+        <a href="#" class="item-detail-button"><i class="uil uil-eye"></i></a>
+      </div>
+      <div class="product-image">
+        <img src="image/produk/6.jpg" alt="Product1" class="product-card-image">
+      </div>
+      <div class="product-content">
+        <h3 class="product-card-title">Jepit rambut cute</h3>
+        <div class="product-stars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="product-price">IDR10K</div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- prodacts section end -->
+
+<!-- about section start -->
+<section id="about" class="about">
+  <h2><span>Tentang</span> kami</h2>
+  
+  <div class="row">
+    <div class="about-img">
+      <img src="image/header33.jpg" alt="Tentang Kami">
+    </div>
+    <div class="content">
+      <h3>Kenapa belanja di G<span>Shop</span>?</h3>
+      <p>Kami adalah Toko online kekinian dengan produk penjualan barang kebutuhan sehari-hari dengan cepat dan lengkap berbasis Online. Hanya di Bae<span>Shop</span>.</p>
+      <p >Belanja asik hanya di G<span >Shop</span>.</p>
+    </div>
+  </div>
+</section>
+<!-- about section end -->
+
+
+<!-- contact section star -->
+<section id="contact" class="contact">
+  <h2><span>Kontak</span> Kami</h2>
+  <div class="row">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2354.446736912594!2d104.9077!3d-4.322248!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e38d742d343177b%3A0x5103a521d96ca07b!2sGisting%20jaya!5e1!3m2!1sid!2sid!4v1684565695971!5m2!1sid!2sid"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    
+    <form action="">
+      <div class="input-group">
+        <i class="uil uil-user"></i>
+        <input type="text" placeholder="Nama">
+      </div>
+      <div class="input-group">
+        <i class="uil uil-envelope"></i>
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="input-group">
+        <i class="uil uil-phone"></i>
+        <input type="text" placeholder="Nomer handphone">
+      </div>
+      <button type="submit" class="btn">Kirim Pesan</button>
+    </form>
+  </div>
+</section>
+<!-- contact section end-->
+<!-- footer star -->
+<footer>
+  <div class="sosials">
+    <a href="https://instagram.com/weeeeeeee_0?igshid=ZGUzMzM3NWJiOQ=="><i class="uil uil-instagram"></i></a>
+    <a href="https://www.facebook.com/aji.cpmunity"><i class="uil uil-facebook"></i></a>
+    <a href="https://chat.whatsapp.com/G8X29DJB3u8BHBOrnt3HGE"><i class="uil uil-whatsapp"></i></a>
+  </div>
+  
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#menu">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
+  <div class="credit">
+    <p >Created By<a href="#">W8</a>. l & @Copyright;2023</p>
+  </div>
+</footer>
+<!-- footer end -->
+
+<!-- modal-box-detial star-->
+<div class="modal" id="item-detail-modal">
+  <div class="modal-container">
+   <a href="#" class="close-icon" onclick="closeIcon()"><i data-feather="x"></i></a>
+    <div class="modal-content">
+      <div class="modal-img">
+      <img src="image/2.jpg" alt="kacamata-hitam" id="modalImg">
+        </div>
+      <div class="prodact-content">
+        <h3 class="modal-titel" id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <div class="product-stars" id="modalStars">
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star"></i>
+           <i data-feather="star" class="star1"></i>
+        </div>
+        <div class="product-price" id="modalPrice">
+         <span  class="modal-span" id="modalPriceSpan"></span>
+        </div>
+        <a href="#" ><i data-feather="shoping"></i> <span>Add To Cart</span></a>
+        <p> Sedang Dalam pengembangan, Currently under development <span ><i class="uil uil-exclamation-triangle"></i></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal-box-detial end -->
+<!-- loading start -->
+<div id="loading-overlay">
+    <div id="loading-spinner"></div>
+  </div>
+<!-- loading end -->
+
+  <!-- feather-icons-script-->
+  <script>
+      feather.replace()
+    </script>
+    
+  <!-- script-js -->
+    <script src="main.js"></script>
+ 
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  
+</body>
+
+</html>
