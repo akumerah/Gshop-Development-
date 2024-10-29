@@ -119,5 +119,5 @@ const formatMessage = (obj) => {
   No Hp: ${obj.phone}
   data pesanan
   ${JSON.parse(obj.items).map((item) =>  `${item.name} (${item.quantity} x ${rupiah(item.total)} \n)`)}
- TOTAL: ${rupiah(obj.total)} TERIMA KASIH`;
+ TOTAL: ${rupiah(obj.total)} ☺️TERIMA KASIH`;
 };
